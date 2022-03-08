@@ -1,9 +1,11 @@
 # fcc-product-landing-page
 freeCodeCamp // Responsive Web Projects >> Build a Product Landing Page
 
-SEE THE PAGE BY >> <a href="https://rnddave.github.io/fcc-product-landing-page/">CLICKING HERE</a> <<
+SEE THE PAGE BY >> <a href="https://codepen.io/rnddave/pen/abVrBmO">CLICKING HERE</a> <<
 
-CODEPEN >> 
+CODEPEN >> https://codepen.io/rnddave/pen/abVrBmO
+
+I actually started this challenge a long time ago, but gave up on it and moved to something >> <a href="https://rnddave.github.io/html-demo-carols-groomers/">prettier</a>
 
 <section id="description">
 <p><strong>Objective:</strong> Build a <a href="https://codepen.io">CodePen.io</a> app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/RKRbwL">https://codepen.io/freeCodeCamp/full/RKRbwL</a>.</p>
