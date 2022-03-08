@@ -1,21 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <title>Product Landing Page - Demo</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="header">
-        <img src="assets/logo.png" id="header-img"/> 
-        <nav id="nav-bar"> 
-            <ul id="nav-list">
-                <li id="item-1">item 1</li>
-                <li id="item-2">item 2</li>
-            </ul>
-        </nav>
+      <img src="assets/logo.png" id="header-img" />
+      <nav id="nav-bar">
+        <ul id="nav-list">
+          <li id="nav-list-item"> <a class="nav-link" href="#header-img">Home</a></li>
+          <li id="nav-list-item"> <a class="nav-link" href="#about-section">About</a></li>
+          <li id="nav-list-item"> <a class="nav-link" href="#services-section">Services</a></li>
+          <li id="nav-list-item"> <a class="nav-link" href="#more-info-section">More Info</a></li>
+        </ul>
+      </nav>
     </header>
-</body>
+    <section id="wrap">
+    <section id="hero-section">
+      <h2 id="hero-description>">
+        We can meet all your grooming needs including bathing, grooming, nails
+        etc.
+      </h2>
+      <div id="video-diz">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/mGstOgMZUy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <button class="btn"><a href="#services">More info?</a></button>
+    </section>
+
+
+    <section id="about-section">
+      <div id="card">
+        <i class="fas fa-dog"></i>
+      </div>
+      <div id="about-content">
+        <h2>Where are we?</h2>
+        <h3>We are located in Billingham</h3>
+        <p>We can come to yours, or, you can bring your dog to us</p>
+        <button class="main__btn">
+          <a href="tel://+44 7889 476xxx">Call/Text: 07889 476xxx</a>
+        </button>
+      </div>
+    </section>
+
+
+    <section id="services-section">
+      <h1>Our Services</h1>
+      <div id="services-wrapper">
+        <div id="services-card">
+          <h2>Nails</h2>
+          <p>30 minutes (typical)</p>
+          <div id="services-btn"><button>from £22</button></div>
+        </div>
+        <div id="sservices-card">
+          <h2>Groom</h2>
+          <p>1 hour +</p>
+          <div id="services-btn"><button>from £32</button></div>
+        </div>
+        <div id="services-card">
+          <h2>Bath & Groom</h2>
+          <p>1 hour +</p>
+          <div id="services-btn"><button>from £42</button></div>
+        </div>
+        <div id="services-card">
+          <h2>Bath, Groom & Nails</h2>
+          <p>At least an hour, depending on breed, etc</p>
+          <div id="services-btn"><button>from £52</button></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="more-info-section">
+      <div id="social-content">
+        <h1>Find us on Social Media</h1>
+        <h2>Read and leave reviews on FaceBook</h2>
+        <p>See what makes us different</p>
+        <button id="social-btn">
+          <a href="https://www.facebook.com/Carols-Groomers-138663609477467/"
+            >My Facebook Page</a
+          >
+        </button>
+      </div>
+      <div id="card">
+        <i class="fas fa-users"></i>
+      </div>
+    </section>
+
+
+    <section id="form-section">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label id="name-label">Name: </label
+        ><input id="name" type="text" placeholder="enter your name" required />
+        <br />
+        <label id="email-label">Email Address: </label
+        ><input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+        <br />
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Let me know what you need for your fluffy friend..."
+        >
+        </textarea>
+        <br />
+        <input id="submit" type="submit" value="Know more?" class="btn" />
+      </form>
+    </section></section>
+  </body>
 </html>
